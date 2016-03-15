@@ -54,6 +54,7 @@ selector | string | null | Selector for element that will be the 3d card
 perspective | integer | 1000 | Perspective value for 3d space
 sensitivity | integer | 20 | Mouse movement sensitivity, larger number is less sensitive
 invert | boolean | false | Default behavior is the element will follow the mouse, look like it facing the mouse
+shine | boolean | false | Add shining layer
 hoverInClass | string | hover-in | Helper class when mouse hover in the element, will be removed after 300ms
 hoverOutClass | string | hover-out | Helper class when mouse hover Out the element, will be removed after 300ms
 hoverClass | string | hover-3d | Helper class when the mouse is hovering the element
