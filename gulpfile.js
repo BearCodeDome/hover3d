@@ -105,10 +105,10 @@ gulp.task( 'js', function(){
  * with support of browsersync
  **/
 gulp.task( 'default', function(){
-	files = ["dist/**/*.html","dist/**/*.js"];
+	files = ["**/*.html","dist/**/*.js"];
 	browserSync.init(files,{
 		server:{
-			baseDir: "dist/",
+			baseDir: "./",
 		}
 	});
 	gulp.watch( "./source/sass/**/*.scss", ["css"] );
