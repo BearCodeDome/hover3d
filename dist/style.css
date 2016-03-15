@@ -40,6 +40,9 @@ a {
   margin-bottom: 50px; }
   .share span, .share a, .share iframe {
     vertical-align: middle; }
+    .share span span, .share a span, .share iframe span {
+      vertical-align: middle !important;
+      width: 130px !important; }
 
 .columns:after {
   content: " ";

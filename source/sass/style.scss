@@ -53,6 +53,11 @@ a{
 	margin-bottom: 50px;
 	span, a, iframe{
 		vertical-align: middle;
+
+		span{
+			vertical-align: middle!important;
+			width: 130px!important;
+		}
 	}
 }
 .columns{
